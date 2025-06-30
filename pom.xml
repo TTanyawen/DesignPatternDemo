@@ -12,6 +12,7 @@
         <module>singletion-pattern-demo</module>
         <module>prototype-pattern-demo</module>
         <module>proxy-pattern-demo</module>
+        <module>factory-pattern-demo</module>
     </modules>
 
     <parent>
