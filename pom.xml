@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>singletion-pattern-demo</module>
+        <module>prototype-pattern-demo</module>
     </modules>
 
     <parent>
