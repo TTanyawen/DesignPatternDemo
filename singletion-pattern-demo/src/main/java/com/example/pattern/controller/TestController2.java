@@ -22,4 +22,12 @@ public class TestController2 {
         log.info("code:"+singletonService.getCode());
         return singletonService.incrementAndGet();
     }
+
+    @RequestMapping("/test2/single/3")
+    public int testSingle3() {
+        //这样的话才是另一个对象
+        SingletonService singletonService2 = new SingletonService();
+        log.info("code:"+singletonService2.getCode());
+        return singletonService2.incrementAndGet();
+    }
 }
